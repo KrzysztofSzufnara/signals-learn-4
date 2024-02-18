@@ -1,4 +1,4 @@
-import { Component, model } from '@angular/core';
+import { Component, model, viewChild } from '@angular/core';
 
 @Component({
   selector: 'app-signal-counter',

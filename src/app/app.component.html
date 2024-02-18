@@ -1,2 +1,5 @@
 <p>Parent Counter: {{ parentCounter }}</p>
+<button (click)="incrementChildCounter()">Increment children counter</button>
+<hr />
+<app-signal-counter [(counter)]="parentCounter"></app-signal-counter>
 <app-signal-counter [(counter)]="parentCounter"></app-signal-counter>
